@@ -367,7 +367,8 @@ footer{
     
 }
 .footer-items{
-    padding: 30px;
+    z-index: 1;
+    padding: 20px;
     margin: 0 auto;
     
     margin-top: 10px;
@@ -376,9 +377,19 @@ height: 249px;
     display: flex;
     justify-content: space-between;
 }
-.footer-container h1, h2, p, a{
+.footer-container h1{
+    color: rgb(230, 83, 60);
+    font-size: 60px;
+font-weight: 800;
+}
+.footer-container h2{
+    font-size: 32px;
+font-weight: 700;
+}
+.footer-container  p, a{
     /* margin-top: 3.5vh; */
-    color: whitesmoke;
+    color: rgba(255, 255, 255, 0.5);
+
     text-decoration: none;
 }
 #footer-grid{

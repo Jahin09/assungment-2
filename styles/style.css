@@ -9,6 +9,7 @@
     /* background: #000; */
     line-height: 1.1;
     
+    
     }
 
     /* shared items */
@@ -20,21 +21,22 @@
     .btn-2{
         background-color: rgb(230, 83, 60);
         color: #fff;
-       padding: 10px 20px;
+        padding: 16px 40px 16px 40px;
         /* margin-right: 10px; */
         cursor: pointer;
-        border-radius: 20px;
+        border-radius: 40px;
         font-size: 1rem;
         border: none;
+        
     
     }
     .btn-3{
         background-color:black;
         color: #fff;
-       padding: 10px 20px;
+        padding: 16px 40px 16px 40px;
         /* margin-right: 10px; */
         cursor: pointer;
-        border-radius: 20px;
+        border-radius: 40px;
         font-size: 1rem;
         border: none;
     
@@ -45,6 +47,7 @@ body{
     max-width: 11/12;
     margin: 0  ;
     padding: 0;
+    /* margin-top: 25px; */
 }
 header{
     background: linear-gradient(180deg, rgb(17, 17, 17) 0%, rgba(197, 197, 197, 0) 100% ,rgb(17, 17, 17) 100% );
@@ -109,6 +112,7 @@ header{
     .nav-items-1 p {
         font-size: 1rem;
         margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.5);
     }
     .nav-items-2 img{
         max-width: 100%;
@@ -119,12 +123,14 @@ header{
     main{
         
         background: #000;
+         /* margin-top: 10vh; */
+        
     }
     
     .habbit-section{
         width: 1050px ;
         margin: 0 auto;
-        min-height:  452px;
+        height:  452px;
         /* border: 2px solid gold; */
         justify-items: center;
         align-content: center;
@@ -157,6 +163,7 @@ font-weight: 900;
    .habbit-section p{
     font-size: 14px;
 font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
 
    }
    .habbit-img-container img{
@@ -178,6 +185,7 @@ font-weight: 600;
     font-size: 14px;
 font-weight: 400;
 line-height: 22px;
+color: rgba(255, 255, 255, 0.5);
 /* margin-bottom: 30px; */
    }
 .habbit-conatiner-2{
@@ -209,4 +217,179 @@ font-weight: 900;
 .habbit-conatiner-2 p{
     font-size: 14px;
 font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+}
+
+#bmi-header{
+    margin-top: 4vh;
+    margin-left:75vh ;
+    display: flex;
+    flex-direction: column;
+}
+.bmi-section{
+    margin-top: 7vh;
+    background: rgb(34, 34, 34);
+    height: 466px;
+/* border: 3px solid blueviolet; */
+border-radius: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 0 auto;
+
+
+}
+
+.table {
+    
+    border-collapse: collapse; /* Ensures borders are merged */
+    margin: 20px 0;
+    gap: 4px;
+}
+.table, th, td {
+    border: 1px solid #e6e0e0; /* Adds a solid black border to table, th, and td */
+}
+.th, td {
+    padding: 10px; /* Adds padding inside the cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+form {
+   
+    
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; /* Space between grid items */
+}
+#full-grid{
+    grid-column: 1 / -1;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+select option {
+    background-color: #86e6e1;
+}
+.bmi-chart{
+    margin-bottom: 10vh;
+}
+.meet-our-team{
+    width: 1060px;
+    height: 782px;
+    margin: 0 auto;
+}
+.team-header{
+    text-align: center;
+}
+.team-header h1{
+    font-size: 48px;
+font-weight: 900;
+}
+.team-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+font-weight: 400;
+}
+.team-img-container{
+    
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:20px; 
+  padding: 20px; 
+  background: rgba(255, 255, 255, 0.1);
+
+justify-items: center;
+}
+
+
+.grid-img{
+    
+
+    position: relative;
+}
+.grid-img img{
+    
+    border-radius: 10px;
+   max-width: 100%;
+min-height: 100%;
+}
+.text-overlay {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translate(-90%, -85%);
+  color: white;
+  /* font-size: 24px;
+  font-weight: bold; */
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding: 10px;
+  margin: 10px;
+}
+.grid-img h4{
+    margin: 0;
+    font-size: 24px;
+
+}
+.grid-img p{
+    margin: 5px 0 0;
+  font-size: 16px;
+  color: #ccc;
+}
+footer{
+   
+   
+    background: rgba(255, 255, 255, 0.1);
+    height: 489px;
+    /* border: 2px solid yellow; */
+    
+}
+.footer-items{
+    padding: 30px;
+    margin: 0 auto;
+    
+    margin-top: 10px;
+    width: 1050px;
+height: 249px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container h1, h2, p, a{
+    /* margin-top: 3.5vh; */
+    color: whitesmoke;
+    text-decoration: none;
+}
+#footer-grid{
+ display: grid;
+ grid-template-columns:repeat(1, 1fr) ;
+ gap: 10px;
+}
+footer hr{
+    margin-top: 20px;
+    width: 80%;
+}
+#copy-right{
+    text-align: center;
 }

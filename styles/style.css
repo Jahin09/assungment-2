@@ -325,15 +325,16 @@ justify-items: center;
 
 
 .grid-img{
-    
-
     position: relative;
+
+   
 }
 .grid-img img{
+    width: 320px;
+    height: 270px;
     
     border-radius: 10px;
-   max-width: 100%;
-min-height: 100%;
+  
 }
 .text-overlay {
   position: absolute;
@@ -341,12 +342,10 @@ min-height: 100%;
   left: 30%;
   transform: translate(-90%, -85%);
   color: white;
-  /* font-size: 24px;
-  font-weight: bold; */
   text-align: center;
-  /* background-color: rgba(0, 0, 0, 0.5); */
   padding: 10px;
   margin: 10px;
+  margin-left: 20px;
 }
 .grid-img h4{
     margin: 0;
@@ -362,7 +361,7 @@ footer{
    
    
     background: rgba(255, 255, 255, 0.1);
-    height: 489px;
+    min-height: 540px;
     /* border: 2px solid yellow; */
     
 }

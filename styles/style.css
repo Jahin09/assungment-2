@@ -50,7 +50,7 @@ body{
     /* margin-top: 25px; */
 }
 header{
-    background: linear-gradient(180deg, rgb(17, 17, 17) 0%, rgba(197, 197, 197, 0) 100% ,rgb(17, 17, 17) 100% );
+    background: linear-gradient(190deg, rgb(17, 17, 17) 0%, rgba(65, 56, 56, 0) 100% );
 
     
     
@@ -60,7 +60,7 @@ header{
 }
 
 .nav-bar{
-   
+   margin-top: 50px;
     width: 1050px ;
     margin: 0 auto;
     /* margin-top: 30px; */
@@ -95,11 +95,12 @@ header{
     width: 1050px ;
     margin: 0 auto;
    
+   /* margin-top: 40px; */
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 0;
-        height: 580px
+        height: 612px
     }
 .nav-items-1 h1 {
         font-size: 4.5rem;
@@ -115,10 +116,46 @@ header{
         color: rgba(255, 255, 255, 0.5);
     }
     .nav-items-2 img{
-        max-width: 100%;
-        object-fit: cover;
-        margin-top: 40px;
+        margin-top: 80px;
+        width: 349px;
+        height:520px;
+        /* object-fit: cover; */
+        /* margin-top: 80px; */
     }
+    .img-overley{
+        position:absolute;
+        justify-items: center;
+        align-items: center;
+        width: 180px;
+        
+height: 98px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+/* text-align: center; */
+margin: 38vh;
+margin-top: 33vh;
+    }
+    .img-overley-2{
+        position:absolute;
+        justify-items: center;
+        align-items: center;
+        width: 170px;
+        height: 96px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+text-align: center;
+left:680px;
+margin-top: 80vh;
+
+    }
+    
+   
 
     main{
         
